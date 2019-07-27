@@ -2,13 +2,13 @@
 
 pure ReactJS autoComplete country search
 
-###Demo: http://autocomplete-react.seav.us/
+Demo: http://autocomplete-react.seav.us/
 
-###Requirements:
+Requirements:
 - NodeJS v6+
 - npm v3+
 
-###Install
+Install
 
 ```bash
 git clone https://github.com/dayanstef/auto-complete-react-js
@@ -16,13 +16,13 @@ cd auto-complete-react-js
 npm run setup
 ```
 
-###Development
+Development
 
 ```bash
 npm run dev
 ```
 
-###Production build (integrated http-server)
+Production build (integrated http-server)
 
 ```bash
 npm run build
