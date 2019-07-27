@@ -1,12 +1,11 @@
 const {resolve} = require('path');
 const webpack = require('webpack');
-const validate = require('webpack-validator');
 const {getIfUtils, removeEmpty} = require('webpack-config-utils');
 
 module.exports = env => {
     const {ifProd, ifNotProd} = getIfUtils(env);
 
-    return validate({
+    return ({
         entry: './index.js',
         context: __dirname,
         output: {
