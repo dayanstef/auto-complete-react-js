@@ -17,7 +17,7 @@
   "license": "MIT",
   "homepage": "https://github.com/dayanstef/auto-complete-react-js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "history": "^3.0.0",
     "react": "15.3.0",
     "react-dom": "15.3.0",
